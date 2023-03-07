@@ -1,0 +1,21 @@
+{
+  "name": "gitlab-ci-cd-nana",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "compress-images": "node compress-images.js",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "Parsa Sedigh",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  },
+  "dependencies": {
+    "imagemin": "^8.0.1",
+    "imagemin-pngquant": "^9.0.2"
+  }
+}
